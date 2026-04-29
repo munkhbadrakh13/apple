@@ -1,0 +1,669 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1920px;
+  height: 44px;
+  background-color: #f5f5f7cc;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.logoSize {
+  width: 12.97px;
+  height: 15.94px;
+}
+.logoSize2 {
+  width: 14.08px;
+  height: 14.08px;
+}
+.logoSize3 {
+  width: 12.94;
+  height: 14.91px;
+}
+.headerText {
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+}
+#sec {
+  width: 1920px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.sec2 {
+  background-image: url(/images/Background\ \(2\).png);
+  width: 1920px;
+  height: 75px;
+  margin: auto;
+}
+#sec3 {
+  margin: auto;
+  width: 1920px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.storeGiftMagicAsk {
+  width: 1920px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 759px;
+}
+.storeGiftMagic {
+  width: 655px;
+  height: 52px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.storeTextStyle {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  color: transparent;
+}
+.giftMagicTextStyle {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  color: #6e6e73;
+}
+.tsogtsuulagch {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.ask {
+  width: 226px;
+  height: 100px;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 24px;
+}
+.profileSize {
+  width: 35px;
+  height: 35px;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#turulSongohHeseg {
+  width: 1896px;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin: auto;
+  gap: 12px;
+}
+.hairtsag1 {
+  width: 136px;
+  height: 146px;
+  /* border: 1px solid red; */
+}
+.mac {
+  width: 120px;
+  height: 78px;
+  /* border: 1px solid red; */
+  margin-left: 8px;
+  margin-top: 16px;
+}
+.macText {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  /* border: 1px solid red; */
+  width: 120px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 8px;
+}
+#hudaldanAvahHeseg1 {
+  width: 1920px;
+  /* width: 1640px; */
+  height: 558px;
+
+  margin: auto;
+  margin-top: 60px;
+}
+#hudaldanAvahHeseg2 {
+  width: 1920px;
+  /* width: 1640px; */
+  height: 590px;
+
+  margin: auto;
+  margin-top: 60px;
+}
+.ungutSaaralGarchig {
+  width: 100%;
+  height: 66px;
+
+  display: flex;
+  justify-content: start;
+  gap: 4px;
+}
+.ungutGarchig {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  color: transparent;
+  height: 32px;
+}
+.saaralGarchig {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  color: #6e6e73;
+}
+.gal {
+
+  width: 1920px;
+  height: 500px;
+  display: flex;
+  margin-top: 24px;
+  gap: 20px;
+  overflow: scroll;
+}
+.gal2 {
+
+  width: 1920px;
+  height: 500px;
+  display: flex;
+  margin-top: 24px;
+  gap: 20px;
+  overflow: scroll;
+}
+
+.iphone16Pro {
+  background-image: url(/images/store-card-50-holiday-iphone-pro-202411_GEO_US.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.iphone16ProText {
+  width: 322px;
+  height: 88px;
+
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.appleIntelligence {
+  width: 204px;
+  height: 24px;
+
+  color: #b64400;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+}
+
+.iphone16ProPrice {
+  width: 322px;
+  height: 64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #1d1d1f;
+}
+.text1 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+}
+.text2 {
+  font-size: 18px;
+  font-weight: 400px;
+  font-family: Inter, sans-serif;
+}
+.watch {
+  background-image: url(/images/store-card-50-holiday-watch-s10-202411.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.ipadMini {
+  background-image: url(/images/store-card-50-holiday-ipad-mini-202411.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.macbookPro {
+  background-image: url(/images/store-card-50-holiday-macbook-pro-202411.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.sec2Rm {
+  background-image: url(/images/store-card-40-holiday-engraving-202411.png);
+  width: 400px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+}
+.switch {
+  width: 253px;
+  height: 58px;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.switchdot1 {
+  background-color: purple;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.switchdot2 {
+  background-color: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.switchdot3 {
+  background-color: grey;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.switchdot4 {
+  background-color: yellow;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.switchdot5 {
+  background-color: wheat;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.sec2RmText {
+  width: 257px;
+  height: 109px;
+
+  margin-top: 58px;
+  margin-left: 28px;
+}
+.sec2RmColorText {
+  width: 257px;
+  height: 109px;
+
+  margin-left: 28px;
+}
+/* .sec2RmTextShibal{
+  width: 257px;
+  height: 109px;
+
+  margin-left: 28px;
+  margin-top: 58px;
+} */
+.sec2RmColorTextShibal {
+  width: 257px;
+  height: 109px;
+
+  margin-left: 28px;
+}
+
+.airpodsImgSize {
+  width: 230px;
+  height: 230px;
+
+  margin-top: 71px;
+  margin-left: 41.5px;
+}
+.appleIntelligence {
+  width: 204px;
+  height: 24px;
+
+  color: #b64400;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+}
+.airpodsPriceText {
+  width: 322px;
+  height: 88px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  color: #1d1d1f;
+}
+.airpodsPriceTextShibal {
+  width: 322px;
+  height: 88px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  color: #1d1d1f;
+}
+.text11 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.text22 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+}
+.airpodsPurple {
+  background-color: white;
+  width: 313px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.airpods2 {
+  background-color: white;
+  width: 313px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.airpods4 {
+  background-color: white;
+  width: 313px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.sec3Store {
+  background-image: url(/images/store-card-40-holiday-quick-picks-202411.png);
+  width: 400px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.textImg1 {
+  background-image: url(/images/deliverbag.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.storeTexts {
+  width: 313px;
+  height: 100%;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.storeTextFirst {
+  width: 313px;
+  height: 100%;
+  background-color: white;
+
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.text111 {
+  font-size: 22px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+.textImg2 {
+  background-image: url(/images/2utas.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.appleTradeIn {
+  width: 204px;
+  height: 24px;
+
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+}
+.appleTradeInWhite {
+  width: 204px;
+  height: 24px;
+
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+}
+.textImg3 {
+  background-image: url(/images/ulaantsamtaihun.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.appStore1 {
+  background-image: url(/images/TextStoreZuragnuud1.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+}
+.appStore2 {
+  background-image: url(/images/TextStoreZuragnuud3.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+}
+.appStore3 {
+  background-image: url(/images/TextStoreZuragnuud4.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+}
+.appStore4 {
+  background-image: url(/images/TextStoreZuragnuud2.png);
+  width: 480px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: #00000014;
+  flex-shrink: 0;
+}
+.text1111 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+.last1 {
+  background-image: url(/images/05lastSection.png);
+  width: 400px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  flex-shrink: 0;
+}
+.last2 {
+  background-image: url(/images/04lastSection.png);
+  width: 400px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  flex-shrink: 0;
+}
+.last3 {
+  background-image: url(/images/03lastSection.png);
+  width: 400px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  flex-shrink: 0;
+}
+.last4 {
+  background-image: url(/images/02lastSection.png);
+  width: 400px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  flex-shrink: 0;
+}
+.last5 {
+  background-image: url(/images/01lastSection.png);
+  width: 400px;
+  height: 100%;
+
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  flex-shrink: 0;
+}
+#footerpadding {
+  width: 1920px;
+  height: 256px;
+  margin: auto;
+}
+.footer {
+  width: 1920px;
+  height: 96px;
+  margin-top: 60px;
+}
+.quickLink {
+  width: 1920px;
+  height: 32px;
+  /* border: 1px solid red; */
+  margin: auto;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+}
+.footerText {
+  width: 1920px;
+  height: 40px;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+}
+.orderStatus {
+  width: 125px;
+  height: 40px;
+  border: 1px solid #1d1d1f;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.ShoppingHelp {
+  width: 137px;
+  height: 40px;
+  border: 1px solid #1d1d1f;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.returns {
+  width: 91px;
+  height: 40px;
+  border: 1px solid #1d1d1f;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.yourSaves {
+  width: 114px;
+  height: 40px;
+  border: 1px solid #1d1d1f;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.textStyle {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  color: #1d1d1f;
+}
